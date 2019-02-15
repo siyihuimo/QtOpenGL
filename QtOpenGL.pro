@@ -20,3 +20,5 @@ HEADERS  += MainWindow.h \
     MyOpenGLWindow.h
 
 FORMS    += MainWindow.ui
+
+LIBS += -lopengl32 -lglu32

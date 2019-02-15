@@ -1,10 +1,10 @@
 #ifndef MYOPENGLWINDOW_H
 #define MYOPENGLWINDOW_H
 
-#include <QOpenGLWidget>
+#include <QGLWidget>
 #include <QOpenGLFunctions>
 
-class MyOpenGLWindow : public QOpenGLWidget , protected  QOpenGLFunctions
+class MyOpenGLWindow : public QGLWidget , protected  QOpenGLFunctions
 {
     Q_OBJECT
 public:
